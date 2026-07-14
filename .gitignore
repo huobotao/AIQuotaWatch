@@ -1,0 +1,25 @@
+.DS_Store
+.swiftpm/
+**/.build/
+DerivedData/
+dist/
+outputs/
+*.zip
+*.log
+.env
+.env.*
+
+# Xcode per-user state
+**/xcuserdata/
+*.xcuserstate
+
+# Local screenshots, probes, and verification artifacts
+work/*.png
+work/*.txt
+work/verify-unzip/
+
+# Runtime data and credentials must never enter source control
+**/Application Support/AIQuotaWatch/
+**/claude_token*
+**/status.json
+**/usage-*.jsonl
